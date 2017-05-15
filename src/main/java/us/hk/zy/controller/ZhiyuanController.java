@@ -25,9 +25,4 @@ public class ZhiyuanController {
         request.getRequestDispatcher("/pages/wedding.html").forward(request, response);
     }
 	
-	@RequestMapping(value = "/11", method = RequestMethod.GET)
-	public String getDocuments1() {
-		return "123";
-	}
-
 }
