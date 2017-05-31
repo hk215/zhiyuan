@@ -6,7 +6,32 @@
 	background-color: #fff;
 	width: 132px;
 	height: auto;
-	padding: 18px 15px 0;
+	padding: 10px 15px 0;
+	-webkit-transition: left 0.3s ease-in-out;
+	   -moz-transition: left 0.3s ease-in-out;
+		-ms-transition: left 0.3s ease-in-out;
+		 -o-transition: left 0.3s ease-in-out;
+			transition: left 0.3s ease-in-out;
+}
+
+#music-panel{
+	position: fixed;
+	z-index: 6;
+	left: 0;
+	top: 65px;
+	background-color: #fff;
+	width: 90px;
+	height: auto;
+	padding: 4px 0px 5px 15px;
+	-webkit-transition: left 0.3s ease-in-out;
+	   -moz-transition: left 0.3s ease-in-out;
+		-ms-transition: left 0.3s ease-in-out;
+		 -o-transition: left 0.3s ease-in-out;
+			transition: left 0.3s ease-in-out;
+}
+
+#music-panel.panel-hide{
+	left: -90px;
 	-webkit-transition: left 0.3s ease-in-out;
 	   -moz-transition: left 0.3s ease-in-out;
 		-ms-transition: left 0.3s ease-in-out;
@@ -23,7 +48,7 @@
 			transition: left 0.3s ease-in-out;
 }
 
-#demo-panel .panel-toggle{
+#demo-panel .panel-toggle,#music-panel .music-panel-toggle{
 	position: absolute;
 	right: -35px;
 	top: 0;
@@ -37,12 +62,16 @@
 	background-color: #fff;
 }
 
-#demo-panel .panel-toggle:hover{
+#demo-panel .panel-toggle:hover,#music-panel .music-panel-toggle:hover{
 	cursor: pointer;
 }
 
-#demo-panel ul{
+#demo-panel ul,#music-panel ul{
 	padding: 0;
+}
+
+#music-panel i{
+	padding: 0 2px 0;
 }
 
 #demo-panel ul > li{
