@@ -15,6 +15,7 @@ a{color:#a4c956}
 #ceremony h2{color:#a4c956;text-shadow:8px 7px 0 rgba(164,201,86,0.35)}
 #photos .photo-gallery{background-color:#aecf69}
 #photos #wedding-photo .carousel-control:hover{background:#a4c956 !important}
+#photos a{color:#fff} #photos a:hover{color:#a4c956} 
 .content-avatar{background:#a4c956}.content-avatar::after{content:'';border-top-color:#a4c956}
 .content-item::after{font-family:'FontAwesome';font-size:18px;line-height:26px;font-weight:400;content:'\f15c';-webkit-box-shadow:0 0 0 3px #a4c956;-moz-box-shadow:0 0 0 3px #a4c956;-ms-box-shadow:0 0 0 3px #a4c956;-o-box-shadow:0 0 0 3px #a4c956;box-shadow:0 0 0 3px #a4c956}
 .content-item h3{color:#a4c956}.content-item h3 a{color:#a4c956}
