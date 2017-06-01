@@ -25,4 +25,9 @@ public class ZhiyuanController {
         request.getRequestDispatcher("/pages/wedding.html").forward(request, response);
     }
 	
+	@GetMapping(value = "/gallery")
+	public void gallery(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/pages/gallery.html").forward(request, response);
+    }
+	
 }

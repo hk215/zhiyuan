@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+body {
+	max-width:750px;
+	margin:0 auto;
+	padding:1em;
+	font-family:'EB Garamond',serif;
+	font-size:18px;
+	line-height:26px;
+	font-weight:400;
+	background-color:transparent;
+	background-image:url('../images/bg.png');
+	-webkit-background-size:auto;
+	-moz-background-size:auto;
+	-ms-background-size:auto;
+	-o-background-size:auto;
+	background-size:auto;
+	background-position:center center;
+	background-repeat:repeat;
+	background-attachment:initial;
+	-webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+img {
+	padding:0;
+  	border: 0;
+  	vertical-align: middle;
+  	max-height:110px;
+  	max-width:110px
+}
